@@ -1,0 +1,11 @@
+.brand {
+    display: flex;
+    flex-grow: 0.6;
+}
+
+.brand-title {
+    font-size: 1.875rem;
+    line-height: 1;
+    font-family: var(--body-ff-extra);
+    color: var(--heading-color);
+}

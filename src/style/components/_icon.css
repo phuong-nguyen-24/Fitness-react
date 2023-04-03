@@ -1,0 +1,18 @@
+.icon {
+  --icon-size: 2.8rem;
+  display: block;
+  font-size: var(--icon-size);
+  height: var(--icon-size);
+}
+
+.icon-header {
+  color: #fa5042;
+}
+
+.icon-arrow {
+  color: var(--primary-color);
+}
+
+.icon-sm {
+  font-size: 1.4rem;
+}

@@ -1,0 +1,68 @@
+.btn {
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 1.7;
+    color: var(--body-color);
+}
+
+.btn-Shared {
+    color:var(--heading-color);
+    background-color: var(--bg-color);
+    padding: 10px 20px;
+    max-width: 10rem;
+    width: 100%;
+    border-radius: var( --rounded);
+    border: 1px solid var(--primary-color);
+    text-align: center;
+    transition: all 0.3s;
+}
+
+.btn-Shared:hover {
+    opacity: 0.7;
+}
+
+.btn-hover:hover {
+    background-color: var(--primary-color);
+}
+
+.btn-nav {
+    color: #000;
+    background-color: var(--primary-color);
+    padding: 12px 30px;
+    width: 100%;
+    max-width: 9rem;
+    border-radius: var( --rounded);
+    text-align: center;
+    transition: all 0.3s;
+}
+
+.btn-nav:hover {
+    background-color: var(--body-color);
+    opacity: 0.7;
+}
+
+.btn-features {
+    margin-top: 2.5rem;
+    max-width: 170px;
+    width: 100%;
+}
+
+.btn-pricing {
+    color: var(--primary-color);
+    max-width: 255px;
+    width: 100%;
+    height: 65px;
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.pricing-body:hover .btn-pricing {
+    background-color: var(--body-color);
+}
+
+.btn-letter {
+    background-color: var(--primary-color);
+    font-size: 1rem;
+    line-height: 1.75rem;
+}

@@ -1,0 +1,64 @@
+.about-container {
+    padding-top: 6rem;
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+    padding-bottom: 5rem;
+    
+  }
+  
+  .about-video {
+    flex-grow: 1;
+    max-width: 900px;
+    height: 401px;
+  }
+  
+  .video-about {
+    width: 100%;
+    height: 100%;
+    border-radius: 2rem;
+  }
+  
+  .about-text {
+      max-width: 407px;
+      width: 100%;
+  }
+  
+  .about-text-item {
+      margin: 2rem 0 1.5rem;
+  }
+  
+  .about-list {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    padding-bottom: 1.7rem;
+  }
+  
+  @media (max-width: 1024px) {
+    .about-container{
+      padding-top: 4rem;
+    }
+    .about-video {
+      height: 300px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .about-container {
+      display: flex;
+      flex-direction: column-reverse;
+      gap: 2rem;
+      padding-bottom: 0;
+    }
+    .about-video {
+      max-width: 500px;
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 640px) {
+    .about-video {
+      height: 200px;
+    }
+  }
